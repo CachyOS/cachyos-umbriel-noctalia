@@ -1,0 +1,6 @@
+[layout]
+mode = "scrolling"
+
+[layout.scrolling]
+default_extent_fraction = 0.5
+center_on_overview_select = true

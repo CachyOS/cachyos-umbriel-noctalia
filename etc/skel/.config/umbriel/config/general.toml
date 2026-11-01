@@ -1,0 +1,15 @@
+[general]
+autostart = [
+  "dbus-update-activation-environment --systemd --all",
+  "noctalia",
+]
+mod_key = "Super"
+xwayland = true
+xwayland_native_resolution = true
+xwayland_xsettings = true
+nvidia_sync_workaround = false
+show_cheatsheet = false
+focus_on_activate = false
+attach_modal_dialogs = true
+honor_restored_maximize = false
+
