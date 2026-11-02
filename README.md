@@ -9,7 +9,7 @@ This repository loosely copies [cachyos-hypr-noctalia](https://github.com/CachyO
 Dependensies:
 
 ```Sh
-adw-gtk-theme kitty dolphin ghome-text-editor gnome-calculator kde-cli-tools noctalia qt6ct swash xdg-desktop-portal xdg-desktop-portal-umbriel
+adw-gtk-theme kitty dolphin ghome-text-editor gnome-calculator kde-cli-tools noctalia qt6ct swash xdg-desktop-portal xdg-desktop-portal-umbriel capitaine-cursors
 ```
 
 ## Post-install
