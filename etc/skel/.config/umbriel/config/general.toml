@@ -1,7 +1,6 @@
 [general]
 autostart = [
   "dbus-update-activation-environment --systemd --all",
-  "noctalia",
 ]
 mod_key = "Super"
 xwayland = true
