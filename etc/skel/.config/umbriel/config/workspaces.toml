@@ -1,0 +1,6 @@
+# Workspaces & Rules
+# WS rules could be declared via [[workspace]] directive
+# Learn more - https://docs.noctalia.dev/umbriel/workspaces/?section=workspace-rules#workspace-rules
+
+[workspaces]
+back_and_forth=true

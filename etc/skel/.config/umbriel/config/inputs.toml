@@ -1,0 +1,18 @@
+# `libinput` devices settings
+# Coulde be per-device, or general
+# Follows https://docs.noctalia.dev/umbriel/input/
+
+[input]
+middle_click_paste = false
+client_window_drag = false
+
+[input.touchpad]
+tap = true
+
+[input.mouse]
+natural_scroll = false
+sensitivity = 0.0
+
+[input.focus]
+follows_mouse = true
+hover_raises = true

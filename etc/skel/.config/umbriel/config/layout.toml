@@ -1,0 +1,11 @@
+# Compositor layouts
+# Could be 1 out of 4: "stacking", "scrolling", "master", "dwindle"
+# You can make presets for all 4, and apply 1 mode
+# Follows https://docs.noctalia.dev/umbriel/layout/
+
+[layout]
+mode = "scrolling"
+
+[layout.scrolling]
+default_extent_fraction = 0.5
+center_on_overview_select = true

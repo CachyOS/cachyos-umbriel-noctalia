@@ -1,0 +1,7 @@
+# Your "Super+Tab" overview settings
+# Slighlty changed defaults from https://docs.noctalia.dev/umbriel/workspaces/
+
+[overview]
+zoom=0.75
+background_blur=false
+workspace_wallpaper=true

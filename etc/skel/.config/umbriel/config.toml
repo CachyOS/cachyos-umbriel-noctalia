@@ -1,0 +1,11 @@
+[include]
+files = [
+  "config/layout.toml",
+  "config/inputs.toml",
+  "config/general.toml",
+  "config/keybinds.toml",
+  "config/appearance.toml",
+  "config/animations.toml",
+  "config/workspaces.toml",
+  "config/overview.toml"
+]
