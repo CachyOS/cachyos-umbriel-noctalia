@@ -4,7 +4,7 @@
 
 This repository contains `Umbriel` specific settings, like `config.toml` and `xdg-desktop-portal`.
 
-Dependensies:
+Dependencies:
 
 ```Sh
 umbriel xdg-desktop-portal-umbriel
@@ -14,7 +14,7 @@ umbriel xdg-desktop-portal-umbriel
 
 ### Path `.config/umbriel`:
 
-in `config.toml` you can finde all `includes` from direcotry `config/`
+in `config.toml` you can find all `includes` from directory `config/`
 
 ### Path `.config/umbriel/config`
 
