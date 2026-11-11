@@ -1,7 +1,7 @@
 [keybinds]
-"Mod+Return" = { action = "spawn kitty", repeat = false }
+"Mod+Return" = { action = "spawn uwsm-app -T", repeat = false }
 "Mod+Q" = { action = "window-close", repeat = false }
-"Mod+Escape" = "session-quit"
+"Mod+Escape" = "spawn uwsm stop"
 "Mod+Shift+Escape" = { action = "shortcuts-inhibit-toggle", allow_when_inhibited = true, repeat = false }
 
 "XF86AudioRaiseVolume" = { action = "spawn noctalia msg volume-up", allow_when_locked = true }

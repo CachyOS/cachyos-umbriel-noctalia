@@ -1,7 +1,4 @@
 [general]
-autostart = [
-  "dbus-update-activation-environment --systemd --all",
-]
 mod_key = "Super"
 xwayland = true
 xwayland_native_resolution = true
