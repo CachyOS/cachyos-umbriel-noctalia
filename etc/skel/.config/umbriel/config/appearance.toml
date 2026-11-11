@@ -1,3 +1,6 @@
+# "Look and feel" of compositor
+# Official documentation https://docs.noctalia.dev/umbriel/appearance/
+
 [appearance]
 prefer_no_csd = true
 opaque_fullscreen = false

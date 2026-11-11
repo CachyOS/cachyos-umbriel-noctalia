@@ -1,3 +1,6 @@
+# Animations
+# Here is used defauls from https://docs.noctalia.dev/umbriel/animation/
+
 [animation]
 enabled = true
 duration_ms = 250

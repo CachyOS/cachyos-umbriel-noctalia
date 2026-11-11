@@ -1,3 +1,7 @@
+# Compositor basics
+# You can follow https://docs.noctalia.dev/umbriel/configuration/
+# But here is mostly defaults 
+
 [general]
 mod_key = "Super"
 xwayland = true

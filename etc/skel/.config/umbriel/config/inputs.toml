@@ -1,3 +1,7 @@
+# `libinput` devices settings
+# Coulde be per-device, or general
+# Follows https://docs.noctalia.dev/umbriel/input/
+
 [input]
 middle_click_paste = false
 client_window_drag = false

@@ -1,29 +1,38 @@
-# cachyos-umbriel-noctalia
+# cachyos-umbriel-settings
 
 [**Umbriel**](https://github.com/noctalia-dev/umbriel) is a Wayland compositor with *scrolling*, *dwindle*, *master* and *stacking* layouts, independent workspaces per monitor, and configurable visual effects.
 
-[**Noctalia**](https://github.com/noctalia-dev/noctalia)  is a native Wayland desktop shell for people who want a polished, configurable Linux desktop without stitching together a separate bar, launcher, notification daemon, lock screen, wallpaper tool, and settings UI.
-
-This repository loosely copies [cachyos-hypr-noctalia](https://github.com/CachyOS/cachyos-hypr-noctalia), with similar intentions.
+This repository contains `Umbriel` specific settings, like `config.toml` and `xdg-desktop-portal`.
 
 Dependensies:
 
 ```Sh
-adw-gtk-theme kitty xdg-desktop-portal xdg-desktop-portal-umbriel
+umbriel xdg-desktop-portal-umbriel
 ```
 
-## Post-install
+## Reposotiry tree
 
-### `Umbriel`
+### Path `.config/umbriel`:
 
-- in `~/.config/umbriel/config/outputs.toml` setup your monitor/s accordingly, follow example;
+in `config.toml` you can finde all `includes` from direcotry `config/`
 
-- in `~/.config/umbriel/config/environment.toml` setup your enviroments;
+### Path `.config/umbriel/config`
 
-- in `~/.config/umbriel/config/inputs.toml` setup your input devices, such as keyboard, mouse, touchpad, touchscreen, tablet;
+| config | purpose |
+| ------ | ------- |
+| `animations.toml` | default animataions; beziers and springs       |
+| `appearance.toml` | look and feel; no theming                      |
+| `general.toml`    | compositor's basics; mod key, xwayland         |
+| `inputs.toml`     | libinput settings; mouse, keyboard, cursor     |
+| `keybinds.toml`   | compositor's keybinds; customize to you liking |
+| `layout.toml`     | layouts; dwindle, stacking, scrolling, master  |
+| `overview.toml`   | compositor's overview settings; look and feel  |
+| `workspaces.toml` | general settings and workspaces rules;         |
 
-Rest are defaults.
+### Path `.config/xdg-desktop-portal`
 
-### `uwsm`
+In `umbriel-portals.conf` you can configure `xdg-desktop-portal` directives for `umbriel`; Default portal already set
 
-In case you decided to use `uwsm` in `~/.config/uwsm` there is environment file, you could add your environments there and skip such step in `umbriel` setup.
+<br/>
+
+Thank you for choosing CachyOS!

@@ -1,3 +1,8 @@
+# Keybinds
+# `uwsm-app -T` is part of UWSM
+# `noctalia msg` is part of noctalia
+# Follows https://docs.noctalia.dev/umbriel/keybinds/
+
 [keybinds]
 "Mod+Return" = { action = "spawn uwsm-app -T", repeat = false }
 "Mod+Q" = { action = "window-close", repeat = false }
