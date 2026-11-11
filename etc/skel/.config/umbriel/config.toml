@@ -6,4 +6,6 @@ files = [
   "config/keybinds.toml",
   "config/appearance.toml",
   "config/animation.toml",
+  "config/workspaces.toml",
+  "config/overview.toml"
 ]
